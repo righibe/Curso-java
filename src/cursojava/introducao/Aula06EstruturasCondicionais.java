@@ -1,7 +1,7 @@
 package cursojava.introducao;
 import java.util.Scanner;
 
-public class ExerciciosIfElse01 {
+public class Aula06EstruturasCondicionais {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -20,5 +20,16 @@ public class ExerciciosIfElse01 {
         }else{
             System.out.println("voce nao esta dentro da lei");
         }
+        int anosDeIdade = 30;
+        String categoria;
+
+        if(anosDeIdade<15){
+            categoria = "categoria infantil";
+        }else if(anosDeIdade >= 15 && anosDeIdade <18){
+            categoria = "categoria juvenil";
+        }else{
+            categoria = "categoria adulto";
+        }
+        System.out.println(categoria);
     }
 }

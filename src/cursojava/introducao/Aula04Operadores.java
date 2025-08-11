@@ -1,5 +1,4 @@
 package cursojava.introducao;
-import java.util.Scanner;
 
 public class Aula04Operadores {
     public static void main(String[] args) {
@@ -35,6 +34,32 @@ public class Aula04Operadores {
         System.out.println("isDentroDaLeiMaiorQueTrinta " + maiorDentroDaLei);
         System.out.println("isDentroDaLeiMenorQueTrinta " + menorDentroDaLei);
 
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 10000;
+        float valorPlaystation = 5000;
+        boolean ps5Compravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
+        System.out.println("posso comprar ps5? " + ps5Compravel);
 
-    }
+
+
+        // = += -= *= /= %=
+        double bonus = 1800;
+        bonus += 1000;
+        bonus -= 1000;
+        bonus *= 2;
+        bonus /= 2;
+        bonus %= 2;
+        System.out.println(bonus);
+
+        //
+        int contador = 0;
+        contador += 1;
+        contador ++;
+        contador--;
+        ++contador;
+        --contador;
+        int contador2 = 0;
+        System.out.println(contador2++);
+        System.out.println(contador2);
+}
 }
