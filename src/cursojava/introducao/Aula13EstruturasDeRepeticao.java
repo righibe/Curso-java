@@ -1,7 +1,7 @@
 package cursojava.introducao;
 import java.util.Scanner;
 
-public class Aula13EstruturasDeRepetição {
+public class Aula13EstruturasDeRepeticao {
     // dado o valor de um carro, descubra quantas vezes ele pode ser paracelado
     // condicao da parcela >= 1000
     public static void main(String[] args) {
@@ -15,6 +15,7 @@ public class Aula13EstruturasDeRepetição {
 
         double calculoValorParcela = valorCarro/1000;
         double valorCorretoParcela = valorCarro/valorParcela;
+        double valorDeEntrada = valorCarro/2;
 
         int maxParcelas = (int)(valorCarro / 1000);
 
@@ -22,16 +23,14 @@ public class Aula13EstruturasDeRepetição {
             System.out.println("Parabens você orçou o parcelamento de um carro!, cada parcela ficou no valode:" + valorCorretoParcela + " !!!");
         }
         else {
-            System.out.println("O número de parcelas escolhidas é muito grande, eis a tabela de quantas vezes pode parcelar o carro:");
+            System.out.println( "O número de parcelas que você escolheu é muito grande, confira os valores a baixo:");
             for (int i = 1; i <= maxParcelas; i++) {
                 double tabelaParcela = valorCarro / i;
                 System.out.printf( "\n" + i + " parcelas de R$ %.2f", tabelaParcela);
             }
 
-        scanner.close();
-
         }
-
+        scanner.close();
 
     }
 }
