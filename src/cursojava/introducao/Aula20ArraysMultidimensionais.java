@@ -6,6 +6,9 @@ public class Aula20ArraysMultidimensionais {
         arrayInt[0] =new int[8];
         arrayInt[1] =new int[3];
         arrayInt[2] =new int[3];
+        arrayInt[0][4] =9;
+
+        System.out.println(arrayInt[0]);
 
         for(int[] arrayBase : arrayInt){
             for (int num : arrayBase){
