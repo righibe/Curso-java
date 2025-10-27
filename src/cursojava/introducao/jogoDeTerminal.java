@@ -115,10 +115,9 @@ public class jogoDeTerminal {
                 jogador = new CacadorCharlatao(nome, idade, genero);
                 break;
             default:
-                System.out.println("Opção inválida. Você será um Camponês!");
+                System.out.println("Opção invalida. Você será um Camponês!");
                 jogador = new Campones(nome, idade, genero);
         }
-
         System.out.println("\nEis suas características:");
         System.out.println("Nome: " + jogador.nome);
         System.out.println("Idade: " + jogador.idade);
