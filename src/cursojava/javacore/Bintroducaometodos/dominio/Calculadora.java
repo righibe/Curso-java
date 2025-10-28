@@ -1,4 +1,4 @@
-package cursojava.javacore.Bintroducao.dominio;
+package cursojava.javacore.Bintroducaometodos.dominio;
 
 public class Calculadora {
 
@@ -42,9 +42,8 @@ public class Calculadora {
         num1 = 99;
         num2 = 33;
         System.out.println("dentro do altera dois numeros");
-        System.out.println("num1" + num1);
-        System.out.println("num2" + num2);
-
+        System.out.println("num1 " + num1);
+        System.out.println("num2 " + num2);
 
     }
 

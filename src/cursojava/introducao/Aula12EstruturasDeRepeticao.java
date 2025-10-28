@@ -3,7 +3,7 @@ package cursojava.introducao;
 public class Aula12EstruturasDeRepeticao {
     public static void main(String[] args) {
         float count = 0;
-        while(count < 1000000){
+        while(count < 100){
             System.out.println("numero " + count);
             count += 2;
         }

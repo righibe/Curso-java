@@ -1,5 +1,5 @@
-package cursojava.javacore.Bintroducao.test;
-import cursojava.javacore.Bintroducao.dominio.Calculadora;
+package cursojava.javacore.Bintroducaometodos.test;
+import cursojava.javacore.Bintroducaometodos.dominio.Calculadora;
 import java.util.Scanner;
 public class CalculadoraTeste02 {
     public static void main(String[] args) {

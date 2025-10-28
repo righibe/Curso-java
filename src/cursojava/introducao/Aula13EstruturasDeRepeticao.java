@@ -15,7 +15,6 @@ public class Aula13EstruturasDeRepeticao {
 
         double calculoValorParcela = valorCarro/1000;
         double valorCorretoParcela = valorCarro/valorParcela;
-        double valorDeEntrada = valorCarro/2;
 
         int maxParcelas = (int)(valorCarro / 1000);
 

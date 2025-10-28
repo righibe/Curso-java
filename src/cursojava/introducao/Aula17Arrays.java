@@ -1,6 +1,6 @@
 package cursojava.introducao;
 
-public class AUla17Arrays {
+public class Aula17Arrays {
     public static void main(String[] args) {
         int [] numeros = new int [3];
         int [] numeros2 = {1,2,3,4,5};
