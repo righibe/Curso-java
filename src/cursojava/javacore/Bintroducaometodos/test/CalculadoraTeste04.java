@@ -12,6 +12,7 @@ public class CalculadoraTeste04 {
         System.out.println("a " + a);
         System.out.println("b " + b);
         System.out.println("o zen e lindo");
+        System.out.println("qualquer coisa");
 
 
 
