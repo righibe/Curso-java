@@ -3,7 +3,7 @@ package cursojava.javacore.Bintroducaometodos.test;
 import cursojava.javacore.Bintroducaometodos.dominio.Estudante;
 import cursojava.javacore.Bintroducaometodos.dominio.ImpressoraEstudante;
 
-public class EstudanteTeste01 {
+public class EstudanteTeste02 {
     public static void main(String[] args) {
         Estudante estudante01 = new Estudante();
         Estudante estudante02 = new Estudante();
@@ -17,11 +17,12 @@ public class EstudanteTeste01 {
         estudante02.sexo = 'M';
         estudante02.idade = 17;
 
-        impressora.imprime(estudante02);
 
-        impressora.imprime(estudante01);
+        estudante01.imprime();
+        estudante02.imprime();
+        System.out.println("_______________________________");
+        estudante01.imprime();
+        estudante02.imprime();
 
-        impressora.imprime(estudante01);
-        impressora.imprime(estudante02);
     }
 }
