@@ -7,7 +7,7 @@ public class Teste_Algoritmo {
         Teste_Algoritmos calculadora = new Teste_Algoritmos();
         int num1 = 14;
         int num2 = 20;
-        double result = calculadora.calculator(num1,num2);
+        int result = calculadora.calculator(1,2);
         System.out.println(result);
     }
 }
