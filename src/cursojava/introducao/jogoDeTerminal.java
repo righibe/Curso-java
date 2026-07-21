@@ -1,7 +1,6 @@
 package cursojava.introducao;
 import java.util.Scanner;
 
-
 class Personagem {
     String nome;
     int idade;
@@ -170,6 +169,10 @@ public class jogoDeTerminal {
                     enfrentou fome e miséria.
                     """);
         }
+
+        System.out.println("Sua joranada se inicia...");
+
+
 
 
     }

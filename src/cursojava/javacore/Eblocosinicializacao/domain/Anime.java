@@ -6,6 +6,7 @@ public class  Anime {
     // 1 - alocado espaço em memória
     // 2 - Cada atributo de classe é criado e inicializado com valores default ou o que for passado
     // 3- Bloco de inicialização é executado
+
     {
         System.out.println("dentro do bloco de inicializacao");
         episodios = new int [100];
